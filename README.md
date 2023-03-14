@@ -24,9 +24,8 @@ $ xhost + local:docker
 First, clone this repository and go into the top-level folder:
 
 ```
-$ mkdir TII_WS/src
-$ cd TII_WS/src
 $ git clone https://github.com/must23/tech_assigmnt.git
+$ cd tech_assigmnt
 ```
 
 Build the Docker images. 
