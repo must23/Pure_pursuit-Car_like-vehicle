@@ -51,8 +51,3 @@ RUN source /opt/ros/noetic/setup.bash \
  && cd TII_ws \
  && catkin_make
 RUN echo "source /TII_ws/devel/setup.bash" >> ~/.bashrc
-
-
-# Copy entry point script, and set the entrypoint
-COPY docker/run_solution.bash ./
-ENTRYPOINT ["./run_solution.bash"]
