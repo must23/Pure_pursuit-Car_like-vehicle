@@ -118,7 +118,7 @@ For C++ implementation
 and 
 \polaris_gem_drivers_sim\gem_pure_pursuit_sim\script
 ```
-2. A demonstration video can be access in this url: 
+2. A demonstration video can be accessed via this URL: 
 ```
 https://youtu.be/2quJo050ScU
 ```
