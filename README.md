@@ -25,12 +25,12 @@ First, clone this repository and go into the top-level folder:
 
 ```
 $ git clone https://github.com/must23/tech_assigmnt.git
-$ cd tech_assigmnt
+$ cd tech_assigmnt/Docker
 ```
 
 Build the Docker images. 
 ```
-$ docker build -f dockerfile_nvidia_ros -t nvidia_ros
+$ docker build .
 ```
 
 Run the bash file from the Docker folder.
