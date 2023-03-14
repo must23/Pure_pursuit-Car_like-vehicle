@@ -54,5 +54,5 @@ RUN echo "source /TII_ws/devel/setup.bash" >> ~/.bashrc
 
 
 # Copy entry point script, and set the entrypoint
-COPY docker/mbzirc_seed/run_solution.bash ./
+COPY docker/run_solution.bash ./
 ENTRYPOINT ["./run_solution.bash"]
