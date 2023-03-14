@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Sensor settings -->
+  <arg name="robot_name" default="gem"/>
+
+  <!-- Vehicle settings -->
+  <group ns="$(arg robot_name)"> 
+  
+    <node name="gem_sensor_info_$(arg robot_name)" pkg="gem_gazebo" type="gem_sensor_info.py" />
+    <node name="gem_pure_pursuit_sim" pkg="gem_pure_pursuit_sim" type="path_visual.py" />
+    
+  </group>
+   
+</launch>
+
+
+
+
+
