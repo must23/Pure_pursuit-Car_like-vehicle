@@ -4,9 +4,6 @@
 
 FROM nvidia/cudagl:11.1.1-base-ubuntu20.04
 
-
-MAINTAINER Mustofa Basri <mustofabasri23@gmail.com>
-
 # Minimal setup
 RUN apt-get update \
  && apt-get install -y locales lsb-release
@@ -46,7 +43,7 @@ WORKDIR /home/$USERNAME/TII_ws
 
 # clone repository
 RUN cd /home/$USERNAME/TII_ws/src \
- && git clone https://github.com/osrf/ros_ign.git -b galactic
+ && git clone https://github.com/must23/tech_assigmnt
 
 
 # Build the Catkin workspace and ensure it's sourced
