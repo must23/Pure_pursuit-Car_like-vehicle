@@ -37,7 +37,11 @@ $ docker build -f dockerfile_nvidia_ros -t nvidia_ros
 Run the bash file from the Docker folder.
 ```
 # container 1
-$ ./run_solution.bash
+$ ./run_docker.sh nvidia_ros "roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true""
+"
+$ ./run_docker.sh nvidia_ros "roslaunch gem_gazebo gem_sensor_info.launch
+
+$ ./run_docker.sh nvidia_ros "rosrun gem_pure_pursuit_sim pure_pursuit_sim"
 ```
 
 ### Local Setup
