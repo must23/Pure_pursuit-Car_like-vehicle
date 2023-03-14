@@ -9,4 +9,6 @@ fi
 
 echo "Sourced Catkin workspace!"
 # Execute the command passed into this entrypoint
-exec "$@"
+roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true"
+roslaunch gem_gazebo gem_sensor_info.launch
+rosrun gem_pure_pursuit_sim pure_pursuit_sim
