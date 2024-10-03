@@ -1,4 +1,4 @@
-# tech_assigmnt
+# Description
 
 
 This repository provides a simulated vehicle model of the Polaris GEM e2 Electric Cart in the Gazebo simulation environment as well as ROS-based sensors and controllers for autonomous driving. 
